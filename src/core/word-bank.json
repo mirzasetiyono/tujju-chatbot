@@ -1,0 +1,104 @@
+{
+    "groups": [
+        {
+            "keyword": [
+                "skill",
+                "skills",
+                "ability",
+                "talent",
+                "do",
+                "does"
+            ],
+            "category": "skill",
+            "needReplacement": false,
+            "answer": "I can tell you current 'date', 'day', 'time', 'weather'. I can say 'hi'. I can redirect you to 'google'. I can tell you my 'email'. I can tell you my 'name'. I can 'code' helloworld in HTML!"
+        },
+        {
+            "keyword": [
+                "day"
+            ],
+            "category": "day",
+            "needReplacement": true,
+            "answer": "today is {{replacement}}"
+        },
+        {
+            "keyword": [
+                "date"
+            ],
+            "category": "date",
+            "needReplacement": true,
+            "answer": "today date is {{replacement}}"
+        },
+        {
+            "keyword": [
+                "time"
+            ],
+            "category": "time",
+            "needReplacement": true,
+            "answer": "current time is {{replacement}}"
+        },
+        {
+            "keyword": [
+                "weather"
+            ],
+            "category": "weather",
+            "needReplacement": true,
+            "answer": "current weather is {{replacement}}"
+        },
+        {
+            "keyword": [
+                "hello",
+                "hi",
+                "hey",
+                "howdy",
+                "greetings",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "good night"
+            ],
+            "category": "greetings",
+            "needReplacement": false,
+            "answer": "hello"
+        },
+        {
+            "keyword": [
+                "search",
+                "google"
+            ],
+            "category": "search",
+            "needReplacement": false,
+            "answer": "search"
+        },
+        {
+            "keyword": [
+                "name"
+            ],
+            "category": "name",
+            "needReplacement": false,
+            "answer": "my name is tujju-bot"
+        },
+        {
+            "keyword": [
+                "email"
+            ],
+            "category": "email",
+            "needReplacement": false, 
+            "answer": "you can contact me at tujju-satria-bajahitam@menteng.com"
+        },
+        {
+            "keyword": [
+                "code"
+            ],
+            "category": "code",
+            "needReplacement": false,
+            "answer": "<p>hello world from tujju</p>"
+        },
+        {
+            "keyword": [],
+            "category": "default",
+            "needReplacement": false,
+            "answer": "I don't understand what you mean, ask my 'skill' for more information"
+        }
+    ]
+}

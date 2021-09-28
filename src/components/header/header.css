@@ -1,0 +1,9 @@
+#download-button {
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    #download-button {
+        display: none;
+    }
+}
